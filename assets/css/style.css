@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+
+header {
+    margin: 0;
+}
+
+.header-background {
+    background-color: #5E6063;
+}
+
+p {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
