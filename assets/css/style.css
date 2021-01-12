@@ -3,32 +3,41 @@
 /*--- Header Style --*/
 /*--- Background Styles --*/
 
-
+.light-black {
+    color: #2B2A2A;
+}
 
 header {
     margin: 0;
 }
 
 .header-background {
-    background-color: #5E6063;
+    background-color: #C0C0C0;
 }
 
 .bg-heroimage {
     background: url("../images/heroimage.jpg");
 }
 
-p {
-    color: #fff;
+header p {
+    color: #2B2A2A;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: left;
 }
 
 .nav {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2B2A2A;
+}
+
+.nav-item {
+     padding-right: 25px;
 }
 
 .text-center {
@@ -42,8 +51,8 @@ p {
 /*--- Footer Style --*/
 
 footer{
-    color: #fff;
-    background-color: #5E6063;
+    color: #2B2A2A;
+    background-color: #C0C0C0;
     font-family: 'Montserrat', sans-serif;
     padding-right: 15px;
     padding-left: 15px;    
@@ -67,12 +76,12 @@ footer h6 {
 }
 
 footer i {
-    color: #fff;
+    color: #2B2A2A;
     font-size: 20px;
 }
 
 footer a {
-    color: #fff;
+    color: #2B2A2A;
 }
 
 footer a:hover {
