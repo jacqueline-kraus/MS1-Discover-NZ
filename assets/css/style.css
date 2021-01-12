@@ -8,6 +8,10 @@ header {
     background-color: #5E6063;
 }
 
+.bg-heroimage {
+    background: url("../images/heroimage.jpg");
+}
+
 p {
     color: #fff;
     text-transform: uppercase;
@@ -20,4 +24,13 @@ p {
 .nav {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border-white {
+    border: solid white 2px;
+    
 }
