@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
 
+/*--- Header Style --*/
+/*--- Background Styles --*/
+
+
+
 header {
     margin: 0;
 }
@@ -33,4 +38,43 @@ p {
 .border-white {
     border: solid white 2px;
     
+}
+/*--- Footer Style --*/
+
+footer{
+    color: #fff;
+    background-color: #5E6063;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+footer p {
+
+    font-size: 13px;
+    text-transform: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer h6 {
+    text-transform: uppercase;
+    text-decoration: dotted underline;
+}
+
+footer i {
+    color: #fff;
+    font-size: 20px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: lightgrey;
 }
