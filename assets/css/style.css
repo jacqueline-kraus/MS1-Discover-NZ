@@ -6,6 +6,12 @@
     text-align: center;
 }
 
+/*--- font-styles -------------------------------------*/
+
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
 /*--- colors -------------------------------------*/
 .light-black {
     color: #2B2A2A;
@@ -106,10 +112,6 @@ footer a:hover {
     opacity: 0.7;
 }
 
-.border-white {
-    border: solid white 2px;
-}
-
 .text-adjust {
     margin-top: 80px;
 }
@@ -124,4 +126,18 @@ footer a:hover {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     color: black;
+}
+
+.info-box {
+    margin-top: 70px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #fff;
+    padding: 1rem;
+    border: solid #C0C0C0 2px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
