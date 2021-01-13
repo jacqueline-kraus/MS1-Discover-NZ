@@ -30,17 +30,27 @@ header p {
     text-align: left;
 }
 
+/*--- Navigation Style -------------------------------------*/
+
 .nav {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-family: 'Montserrat', sans-serif;
+    
+}
+
+.nav-link {
+    padding-right: 50px;
     color: #2B2A2A;
 }
 
-.nav-item {
-     padding-right: 25px;
+.nav-link:hover {
+    color: #fff;
 }
 
+.active {
+    text-decoration: underline;
+}
 
 /*--- Footer Style -------------------------------------*/
 
@@ -82,7 +92,7 @@ footer a:hover {
     color: lightgrey;
 }
 
-/* -- ... -------------------------------------*/
+/* -- index.html -------------------------------------*/
 
 .bg-heroimage {
     background-image: url('/assets/images/heroimage.jpg');
