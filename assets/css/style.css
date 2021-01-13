@@ -134,7 +134,19 @@ footer a:hover {
     margin-left: 100px;
     color: #fff;
     padding: 1rem;
-    border: solid #C0C0C0 2px;
+    border: solid #fff 2px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.info-box-2 {
+    margin: 30px 100px;
+    color: #fff;
+    padding: 1rem;
+    border: solid #fff 2px;
     border-radius: 20px;
     text-align: center;
     display: block;
