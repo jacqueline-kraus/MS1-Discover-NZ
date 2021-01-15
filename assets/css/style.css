@@ -18,6 +18,7 @@
 }
 
 /*--- Header Style -------------------------------------*/
+
 header {
     margin: 0;
 }
@@ -83,6 +84,11 @@ header {
     font-weight: 400;
     color: #212529;
 }
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    }
 
 .nav-link {
     padding-right: 50px;
