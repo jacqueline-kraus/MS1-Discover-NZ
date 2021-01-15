@@ -47,6 +47,7 @@ header {
     margin-bottom: 0;
     list-style: none;
     text-align: right;
+    color: #212529;
 }
 
 .dropdown-menu {
@@ -54,7 +55,6 @@ header {
     top: 100%;
     left: 0;
     z-index: 1000;
-    display: block;
     float: left;
     min-width: 10rem;
     padding: .5rem 0;
@@ -63,28 +63,29 @@ header {
     color: #212529;
     text-align: center;
     list-style: inside;
-    background-color: #fff;
+    background-color: #f8f9fa;
     background-clip: padding-box;
     border: none;
 }
 
+.dropdown-menu:hover {
+    background-color: #fff;
+}
+
 .nav-item {
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 
 .nav {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
+    color: #212529;
 }
 
 .nav-link {
     padding-right: 50px;
-    color: #2B2A2A;
-}
-
-.nav-link:hover {
     color: #fff;
 }
 
