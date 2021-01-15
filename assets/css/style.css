@@ -26,24 +26,57 @@ header {
     background-color: #C0C0C0;
 }
 
-header h1 {
+#logo {
     color: #2B2A2A;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-right: 0px;
+    margin-left: 0px;
     text-align: left;
     letter-spacing: 2px;
+    padding: 0;
 }
 
 /*--- Navigation Style -------------------------------------*/
 
+.navbar-nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: center;
+    list-style: inside;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+
 .nav {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     font-family: 'Montserrat', sans-serif;
-    
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .nav-link {
@@ -152,4 +185,34 @@ footer a:hover {
     display: block;
     font-family: 'Montserrat', sans-serif;
     position: relative;
+}
+
+
+/*-- Media queries */
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: right;
+    list-style: none;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: none;
+}
 }

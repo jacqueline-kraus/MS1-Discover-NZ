@@ -9,14 +9,50 @@
     <title>Discover New Zealand</title>
 </head>
 <body>
-    <header class="header-background">
-        <div class="container-fluid">
+    <header>
+        <nav class="nav navbar navbar-expand-lg navbar-light bg-light">
+           <div class="container-fluid">
+            <a id="logo" class="navbar-brand" href="#">Discover New Zealand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                            <a class="nav-link light-black dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Planning</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item light-black" href="route.html">Route</a>
+                                <a class="dropdown-item light-black" href="#">Accomodation</a>
+                                <a class="dropdown-item light-black" href="#">Highlights</a>
+                                <a class="dropdown-item light-black" href="#">Lord of the rings</a>
+                            </div>
+                        </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+
+
+
+
+        <!-- old header
+        <div class="container-fluid header-fixed">
             <div class="row">
                 <div class="col">
                     <h1>Discover New Zealand</h1>
                 </div>
                 <div class="col">
-<!--navbar provided by bootstrap-->                    
+<!--navbar provided by bootstrap--                    
                      <ul class="nav justify-content-end">
                         <li class="nav-item">
                             <a class="nav-link underline-active active" href="#">Home</a>
@@ -39,7 +75,7 @@
                      </ul>
                 </div>
             </div>         
-        </div>
+        </div> -->
     </header>
     <section>
         <div class="bg-heroimage">
