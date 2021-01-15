@@ -23,10 +23,7 @@ header {
     margin: 0;
 }
 
-.header-background {
-    background-color: #C0C0C0;
-}
-
+    /*-- Logo --*/
 #logo {
     color: #2B2A2A;
     text-transform: uppercase;
@@ -41,7 +38,7 @@ header {
     padding: 0;
 }
 
-/*--- Navigation Style -------------------------------------*/
+    /*--- Navigation --*/
 
 .navbar-nav {
     padding-left: 0;
@@ -99,45 +96,6 @@ header {
     text-decoration: underline;
 }
 
-/*--- Footer Style -------------------------------------*/
-
-footer{
-    color: #2B2A2A;
-    font-family: 'Montserrat', sans-serif;
-    padding-right: 15px;
-    padding-left: 15px;    
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-top: 10px;
-    text-align: left;
-    width: 100%;
-}
-
-footer p {
-
-    font-size: 13px;
-    text-transform: none;
-    font-family: 'Raleway', sans-serif;
-}
-
-footer h6 {
-    text-transform: uppercase;
-    text-decoration: dotted underline;
-}
-
-footer i {
-    color: #2B2A2A;
-    font-size: 20px;
-}
-
-footer a {
-    color: #2B2A2A;
-}
-
-footer a:hover {
-    color: lightgrey;
-}
-
 /* -- index.html -------------------------------------*/
 
 .bg-heroimage {
@@ -183,9 +141,9 @@ footer a:hover {
 
 .info-box-2 {
     margin: 30px 100px;
-    color: #fff;
+    color: #f0ff;
     padding: 1rem;
-    border: solid #fff 2px;
+    border: solid #f0ff 2px;
     border-radius: 20px;
     text-align: center;
     display: block;
@@ -229,4 +187,44 @@ footer a:hover {
     .first-dd-item {
         margin-top: 0;
     }
+}
+
+
+/*--- Footer Style -------------------------------------*/
+
+footer{
+    color: #2B2A2A;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+footer p {
+
+    font-size: 13px;
+    text-transform: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer h6 {
+    text-transform: uppercase;
+    text-decoration: dotted underline;
+}
+
+footer i {
+    color: #2B2A2A;
+    font-size: 20px;
+}
+
+footer a {
+    color: #2B2A2A;
+}
+
+footer a:hover {
+    color: lightgrey;
 }
