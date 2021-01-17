@@ -135,7 +135,7 @@ header {
     display: block;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    background-color: rgb(248,249,250, 0.5)
+    background-color: rgba(248,249,250, 0.5)
 }
 
 .info-box-2 {
@@ -148,6 +148,44 @@ header {
     position: relative;
 }
 
+@media only screen and (min-width:600px) {
+.section-menu-route {
+    background-image: url('/assets/images/route.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+}
+
+.section-menu-accommodation {
+    background-image: url('/assets/images/accommodation.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 200px;
+    margin: 5px;
+}
+
+.section-menu-lotr {
+    background-image: url('/assets/images/lotr.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 200px;
+    margin: 5px;
+}
+
+.section-menu-gallery {
+    background-image: url('/assets/images/gallery.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 200px;
+    margin: 5px;
+}
+}
 
 /*-- Media queries */
 @media only screen and (max-width: 600px) {
