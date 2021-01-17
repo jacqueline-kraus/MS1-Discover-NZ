@@ -130,7 +130,7 @@ header {
     color: #2B2A2A;
     padding: 1rem;
     border: solid #fff 1px;
-    border-radius: 25px;
+    border-radius: 20px;
     text-align: center;
     display: block;
     font-family: 'Montserrat', sans-serif;
@@ -139,11 +139,9 @@ header {
 }
 
 .info-box-2 {
-    margin: 30px 100px;
-    color: #f0ff;
+    margin: 25px 50px;
+    color: #2B2A2A;
     padding: 1rem;
-    border: solid #f0ff 2px;
-    border-radius: 20px;
     text-align: center;
     display: block;
     font-family: 'Montserrat', sans-serif;
