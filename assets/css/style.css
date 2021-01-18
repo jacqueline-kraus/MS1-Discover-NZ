@@ -228,6 +228,16 @@ header {
 }
 
 
+/*-- Section button homepage --*/
+
+.button-homepage {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
 /*-- Media queries */
 @media only screen and (max-width: 600px) {
    #logo {
