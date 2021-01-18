@@ -105,8 +105,9 @@ header {
     background-repeat: no-repeat;
     background-position: center top;
     width: 100%;
-    height: auto;
+    height: 650px;
     opacity: 0.9;
+    margin-top: 60px;
 }
 
 .text-adjust {
@@ -126,7 +127,7 @@ header {
 }
 
 .info-box {
-    margin: 50px;
+    margin: 100px 50px 50px 50px;
     color: #2B2A2A;
     padding: 1rem;
     border: solid #fff 1px;
@@ -139,7 +140,7 @@ header {
 }
 
 .info-box-2 {
-    margin: 50px 150px;
+    margin: 25px 150px 50px 150px;
     color: #2B2A2A;
     padding: 1rem;
     text-align: center;
@@ -155,6 +156,8 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
+    width: 200px;
+    height: 250px;
     margin: 5px;
     padding: 0;
     border-radius: 20px;
@@ -230,11 +233,20 @@ header {
 
 /*-- Section button homepage --*/
 
-.button-homepage {
+.cta-homepage {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+.cta-homepage a {
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    background-color: #f8f9fa;
+    text-decoration: none;
 }
 
 
@@ -273,6 +285,11 @@ header {
         margin-top: 0;
     }
 
+    .bg-heroimage {
+        height: auto;
+        margin-top: 0;
+    }
+
     .info-box {
     margin: 20px 50px;
     color: #2B2A2A;
@@ -284,6 +301,10 @@ header {
     font-family: 'Montserrat', sans-serif;
     position: relative;
     background-color: rgb(248,249,250, 0.5)
+}
+
+.info-box-2 {
+    margin: 50px 50px 0px 50px;
 }
 
     .text-adjust {
