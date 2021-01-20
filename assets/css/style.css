@@ -253,6 +253,15 @@ header {
     text-decoration: none;
 }
 
+/*-- Finding Accommodations --*/
+
+.tips-list {
+    border: solid 1px #2B2A2A;
+    border-radius: 20px;
+    margin: 20px 10px;
+    display: block;
+}
+
 
 /*-- Media queries */
 @media only screen and (max-width: 600px) {
