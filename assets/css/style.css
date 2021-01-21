@@ -287,6 +287,17 @@ header {
     margin-bottom: 20px;
 }
 
+/*-- Highlights --*/
+
+.bg-highlights {
+    background-image: url('/assets/images/tongariro-vulcano.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
 /*-- Media queries */
 @media only screen and (max-width: 600px) {
    .h1-margin {
