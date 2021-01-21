@@ -8,6 +8,7 @@
 
 .h1-margin {
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 /*--- font-styles -------------------------------------*/
@@ -260,6 +261,8 @@ header {
     border-radius: 20px;
     margin: 20px 10px;
     display: block;
+    max-width: 400px;
+    padding-top: 10px;
 }
 
 
