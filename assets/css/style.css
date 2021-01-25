@@ -305,12 +305,18 @@ header {
     margin-bottom: 20px;
 }
 
-div h6 {
+.highlights-style {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2em;
+    text-decoration: none;
+    color: black;
 }
-
+.highlights-style a {
+    color: black;
+}
+/*
 table {
     margin-top: 20px;
 }
@@ -324,7 +330,7 @@ table td {
     padding-right: 20px;
     font-family: 'Raleway', sans-serif;
     vertical-align: top;
-}
+}*/
 
 /*-- Media queries */
 @media only screen and (max-width: 600px) {
