@@ -299,10 +299,33 @@ header {
 }
 
 .style-img-highlights {
-    max-width: 125px;
-    max-height: 150px;
+    max-width: 100%;
+    max-height: auto;
     border-radius: 20px;
 }
+
+div h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+table {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+table tr {
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+table td {
+    padding-right: 20px;
+    font-family: 'Raleway', sans-serif;
+    vertical-align: top;
+}
+
 
 /*-- Media queries */
 @media only screen and (max-width: 600px) {
