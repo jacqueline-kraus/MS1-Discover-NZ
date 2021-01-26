@@ -213,9 +213,9 @@ header {
 }
 
 .btn:hover {
-    background-color: rgb(248,249,250);
-    color: black;
-    border: solid black 1px;
+    background-color: #8f999f;
+    color: white;
+    border: solid #DCDCE4 1px;
     opacity: 1;
 }
 
