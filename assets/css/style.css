@@ -341,7 +341,13 @@ div form {
     margin-right: 15rem;
     margin-left: 15rem;
 }
+
+.contact-h5-margin {
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
+}
+
 
 div form {
     border: 1px solid white;
