@@ -51,18 +51,18 @@
                 </div>
             </div>
         <div>
-        <form>
+        <form onsubmit="alert('Thank you, you submitted your message successfully!')">
             <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter your name">
+                <input type="text" class="form-control" id="name" name="name" aria-describedby="name" placeholder="Enter your name">
             </div>
             <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emaiaddress" placeholder="Enter your emailaddress">
+                <input type="email" class="form-control" id="email" name="emailaddress" aria-describedby="emailaddress" placeholder="Enter your emailaddress" required>
             </div>
             <div class="form-group">
                 <label for="textarea">Tell me!</label>
-                <textarea class="form-control" id="textarea" rows="5" placeholder="Please insert text here"></textarea>
+                <textarea class="form-control" id="textarea" name="message" rows="5" placeholder="Please insert text here" required></textarea>
             </div>
             <button type="submit" class="btn btn-secondary btn-lg btn-block">Submit</button>
         </form>
