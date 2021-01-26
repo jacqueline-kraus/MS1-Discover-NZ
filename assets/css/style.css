@@ -167,7 +167,7 @@ header {
     padding: 0;
     border-radius: 20px;
 }
-
+/*
 .btn {
     background-color: rgba(248,249,250, 0.5);
     border: solid 1px #fff;
@@ -182,7 +182,7 @@ header {
     width: 160px;
     height: 80px;
     margin-left: -25px;
-}
+}*/
 
 .section-menu-text {
     height: 20px;
@@ -334,12 +334,25 @@ table td {
 
 
 /*-- Contact page --*/
+
+
 @media only screen and (min-width: 600px) {
 div form {
-    margin-right: 10rem;
-    margin-left: 10rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
 }
 }
+
+div form {
+    border: 1px solid white;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    background-color: rgba(248,249,250, 0.7);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
 
 .bg-contact {
     background-image: url('/assets/images/bg-contact.jpg');
@@ -347,7 +360,9 @@ div form {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.9;
-
+    height: auto;
+    width: 100%;
+    padding-bottom: 5rem;
 }
 
 /*-- Media queries */
