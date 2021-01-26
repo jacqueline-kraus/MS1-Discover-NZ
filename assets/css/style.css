@@ -332,6 +332,24 @@ table td {
     vertical-align: top;
 }*/
 
+
+/*-- Contact page --*/
+@media only screen and (min-width: 600px) {
+div form {
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+}
+
+.bg-contact {
+    background-image: url('/assets/images/bg-contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+
+}
+
 /*-- Media queries */
 @media only screen and (max-width: 600px) {
    .h1-margin {
@@ -405,6 +423,11 @@ table td {
 
 .style-img-highlights {
     max-width: 100%;
+}
+
+div form {
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 }
