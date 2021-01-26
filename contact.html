@@ -49,10 +49,23 @@
         </div>
         </div>
         </div>
+        <div>
         <form>
-            <input type="text">
-            <input type="submit" value="Submit">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emaiaddress" placeholder="Enter your emailaddress">
+            </div>
+            <div class="form-group">
+                <label for="textarea">What is it about?</label>
+                <textarea class="form-control" id="textarea" rows="5" placeholder="Please insert text here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+        </div>
          
     <footer class="bg-light">
         <div class="container-fluid">
