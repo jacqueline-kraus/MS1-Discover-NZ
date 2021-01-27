@@ -4,6 +4,14 @@ body {
     background-color: #ededed;
 }
 
+h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #464646;
+}
+
 h3 {
     font-family: 'Raleway', sans-serif;
 }
@@ -428,13 +436,14 @@ div form {
     margin-bottom: 1px;
 }
 
+/*
 .gallery-h1 {
     margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #464646;
-}
+}*/
 
 .bg-gallery {
     background-color: #ededed;
@@ -442,7 +451,11 @@ div form {
 
 /*-- Media queries */
 @media only screen and (max-width: 600px) {
-   .h1-margin {
+   h1 {
+       font-size: 25px;
+   }
+
+    .h1-margin {
     margin-top: 120px;
     margin-bottom: 50px;
 }
