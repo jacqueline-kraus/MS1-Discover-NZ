@@ -26,6 +26,19 @@
     background-color: #f9f9f9;
 }
 
+/*
+text-color: #464646
+bg header & footer: #f9f9f9
+bg whole page: #ededed
+
+Header font-family: Montserrat
+h1 font-family: Montserrat
+h3 font-family: Raleway
+normal text font-family: Raleway
+
+*/
+
+
 /*--- Header Style -------------------------------------*/
 
 header {
@@ -34,7 +47,7 @@ header {
 
     /*-- Logo --*/
 #logo {
-    color: #2B2A2A;
+    color: #464646;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
@@ -501,7 +514,7 @@ div form {
 /*--- Footer Style -------------------------------------*/
 
 footer{
-    color: #2B2A2A;
+    color: #464646;
     font-family: 'Montserrat', sans-serif;
     padding-right: 15px;
     padding-left: 15px;    
@@ -524,14 +537,14 @@ footer h6 {
 }
 
 footer i {
-    color: #2B2A2A;
+    color: #464646;
     font-size: 20px;
 }
 
 footer a {
-    color: #2B2A2A;
+    color: #464646;
 }
 
 footer a:hover {
-    color: lightgrey;
+    color: black;
 }
