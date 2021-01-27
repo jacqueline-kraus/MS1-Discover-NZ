@@ -145,6 +145,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     color: #464646;
+    letter-spacing: 2px;
 }
 
 .text-style-h3 {
@@ -162,16 +163,16 @@ header {
 }
 
 .info-box {
-    margin: 100px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
     color: #464646;
     padding: 1rem;
-    border: solid #fff 1px;
+    border: solid rgb(248,249,250) 1px;
     border-radius: 20px;
     text-align: center;
     display: block;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    background-color: rgba(248,249,250, 0.7)
+    background-color: rgba(248,249,250, 0.8)
 }
 
 .info-box-2 {
