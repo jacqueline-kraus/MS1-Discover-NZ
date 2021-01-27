@@ -17,6 +17,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
+h5 {
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+}
+
 /*--- colors -------------------------------------*/
 .light-black {
     color: #2B2A2A;
@@ -33,7 +38,7 @@ bg whole page: #ededed
 
 Header font-family: Montserrat
 h1 font-family: Montserrat
-h3 font-family: Raleway
+h3, h5 font-family: Raleway
 normal text font-family: Raleway
 
 */
