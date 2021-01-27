@@ -154,9 +154,16 @@ header {
     margin-top: 20px;
 }
 
+.index-h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #464646;
+    margin-top: 20px;
+}
+
 .info-box {
     margin: 100px 50px 50px 50px;
-    color: #2B2A2A;
+    color: #464646;
     padding: 1rem;
     border: solid #fff 1px;
     border-radius: 20px;
@@ -164,7 +171,7 @@ header {
     display: block;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    background-color: rgba(248,249,250, 0.5)
+    background-color: rgba(248,249,250, 0.7)
 }
 
 .info-box-2 {
