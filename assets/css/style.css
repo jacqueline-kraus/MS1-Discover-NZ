@@ -224,17 +224,17 @@ header {
     text-align: center;
 }
 
-/*--Section Menu (4 choices)--*/
+/*--Section Menu (4 choices)
 
 .section-menu {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin: 5px;
     padding: 0;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 /*
 .btn {
@@ -253,6 +253,7 @@ header {
     margin-left: -25px;
 }*/
 
+/*
 .section-menu-text {
     height: 20px;
     width: 100px;
@@ -260,9 +261,11 @@ header {
     position: relative;
     top: 50%;
     left: 50%;
-}
+}*/
 
-/*
+/* --- commented out to try a new approach ----
+
+
 .section-menu-text a {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -276,17 +279,12 @@ header {
     color: black;
     border: solid #fff 1px;
 }
-*/
+
 .section-menu:hover {
     opacity: 0.7;
 }
 
-.btn:hover {
-    background-color: #8f999f;
-    color: white;
-    border: solid #DCDCE4 1px;
-    opacity: 1;
-}
+
 
 .section-menu-route {
     background-image: url('/assets/images/route.jpg');
@@ -303,7 +301,7 @@ header {
 .section-menu-gallery {
     background-image: url('/assets/images/gallery.jpg');
 }
-
+--*/
 
 /*-- Section button homepage --*/
 
@@ -457,6 +455,12 @@ div form {
     padding-bottom: 5rem;
 }
 
+.btn:hover {
+    background-color: #8f999f;
+    color: white;
+    border: solid #DCDCE4 1px;
+    opacity: 1;
+}
 /*-- image gallery*/
 
 #image-gallery {
