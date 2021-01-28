@@ -212,12 +212,16 @@ header {
 }
 
 .info-box-2 {
-    margin: 25px 150px 50px 150px;
+    margin: 2rem 10rem;
     color: #464646;
-    padding: 1rem;
-    text-align: center;
+    padding: 40px 80px;
     display: block;
     position: relative;
+}
+
+
+.info-box-2 h3{
+    text-align: center;
 }
 
 /*--Section Menu (4 choices)--*/
