@@ -224,67 +224,7 @@ header {
     text-align: center;
 }
 
-/*--Section Menu (4 choices)
-
-.section-menu {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 300px;
-    margin: 5px;
-    padding: 0;
-    border-radius: 50%;
-}
-/*
-.btn {
-    background-color: rgba(248,249,250, 0.5);
-    border: solid 1px #fff;
-    border-radius: 20px;
-    color: #2B2A2A;
-    padding-top: 14px;
-    padding-bottom: 5px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    text-align: center;
-    position: static;
-    width: 160px;
-    height: 80px;
-    margin-left: -25px;
-}*/
-
-/*
-.section-menu-text {
-    height: 20px;
-    width: 100px;
-    margin: -20px -50px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-}*/
-
-/* --- commented out to try a new approach ----
-
-
-.section-menu-text a {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    color: #2B2A2A;
-    padding-right: 20px;
-}
-
-.section-menu-text:hover {
-    background-color: rgb(248,249,250, 0.5);
-    color: black;
-    border: solid #fff 1px;
-}
-
-.section-menu:hover {
-    opacity: 0.7;
-}
-*/
-
+/*--Section Menu (4 choices) */
 
 .section-menu-route {
     background-image: url('/assets/images/route.jpg');
