@@ -283,7 +283,7 @@ header {
 .section-menu:hover {
     opacity: 0.7;
 }
-
+*/
 
 
 .section-menu-route {
@@ -301,7 +301,23 @@ header {
 .section-menu-gallery {
     background-image: url('/assets/images/gallery.jpg');
 }
---*/
+
+.img-size {
+    width: 250px;
+    height: 250px;
+}
+
+
+.img-size:hover {
+    opacity: 0.5;
+}
+
+.selector-bg {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;    
+}
 
 /*-- Section button homepage --*/
 
