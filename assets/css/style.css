@@ -540,6 +540,7 @@ div form {
 .info-box-2 {
     margin: 20px;
     padding: 1rem;
+    text-align: justify;
 }
 
 .selector-bg {
