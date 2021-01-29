@@ -67,6 +67,7 @@ normal text font-family: Raleway
 
 header {
     margin: 0;
+    border-bottom: 1px solid #464646;
 }
 
     /*-- Logo --*/
@@ -577,6 +578,7 @@ footer{
     padding-top: 10px;
     text-align: left;
     width: 100%;
+    border-top: 1px solid #464646;
 }
 
 footer p {
