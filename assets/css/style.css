@@ -475,6 +475,12 @@ div form {
 }
 
 /*-- LOTR --*/
+.h6-lotr {
+    margin: 2rem 5rem;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    font-weight: 200;
+}
 
 .bg-style-lotr {
     background-size: cover;
