@@ -498,6 +498,18 @@ div form {
     background-image: url('/assets/images/lotr/lotr-hobbiton.jpg');
 }
 
+.bg-isengard {
+    background-image: url('/assets/images/lotr/lotr-isengard.jpg');
+}
+
+.bg-anduin {
+    background-image: url('/assets/images/lotr/lotr-anduin.jpg');
+}
+
+.bg-ithilien {
+    background-image: url('/assets/images/lotr/lotr-ithilien.jpg');
+}
+
 .content-style-lotr {
     border: solid #fff 1px;
     border-radius: 20px;
