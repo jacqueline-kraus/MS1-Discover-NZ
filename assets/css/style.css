@@ -531,6 +531,10 @@ div form {
        font-size: 25px;
    }
 
+   h3 {
+       font-size: 1rem;
+   }
+
     .h1-margin {
     margin-top: 85px;
     margin-bottom: 50px;
@@ -628,6 +632,14 @@ div form {
 
 #image-gallery img {
     width: 100%;
+}
+
+.h6-lotr {
+    margin: 0 2rem 1rem 2rem;
+}
+
+.content-style-lotr {
+    font-size: smaller;
 }
 
 }
