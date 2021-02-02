@@ -474,6 +474,38 @@ div form {
     background-color: #ededed;
 }
 
+/*-- LOTR --*/
+
+.bg-style-lotr {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+
+.bg-mordor {
+    background-image: url('/assets/images/lotr/lotr-mtdoom.jpg');
+}
+
+.bg-hobbiton {
+    background-image: url('/assets/images/lotr/lotr-hobbiton.jpg');
+}
+
+.content-style-lotr {
+    border: solid #fff 1px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    display: block;
+    max-width: 600px;
+    height: 550px;
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(248,249,250, 0.8);
+    padding: 1rem;
+    font-weight: 500;
+}
+
+
 /*-- Media queries */
 @media only screen and (max-width: 600px) {
    h1 {
