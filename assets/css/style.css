@@ -196,7 +196,7 @@ header {
 .info-box {
     margin: 5rem 10rem;
     color: #464646;
-    padding: 40px 80px;
+    padding: 2rem 2rem 0 2rem;
     border: solid rgb(248,249,250) 1px;
     border-radius: 20px;
     display: block;
