@@ -35,6 +35,11 @@ hr {
     margin-bottom: 50px;
 }
 
+.margin-bottom-top {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 /*--- font-styles -------------------------------------*/
 
 .font-raleway {
@@ -219,7 +224,7 @@ header {
 }
 
 .info-box-2 {
-    margin: 2rem 10rem;
+    margin: 0 10rem;
     color: #464646;
     padding: 40px 80px;
     display: block;
@@ -292,8 +297,8 @@ header {
 .cta-homepage {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .cta-homepage a {
