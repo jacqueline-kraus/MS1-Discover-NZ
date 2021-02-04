@@ -331,7 +331,7 @@ header {
 }
 
 .recommend-list {
-    margin: 40px 100px;
+    margin: 40px 100px 0 100px;
     display: block;
     padding-top: 10px;
     font-family: 'Raleway', sans-serif;
