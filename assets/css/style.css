@@ -339,6 +339,10 @@ header {
     font-weight: 500;
 }
 
+.recommend-list p {
+    font-weight: 300;
+}
+
 table a:hover {
     color: #464646;
     font-weight: 600;
