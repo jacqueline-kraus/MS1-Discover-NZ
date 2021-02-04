@@ -331,17 +331,17 @@ header {
 }
 
 .recommend-list {
-    margin: 40px 10px;
+    margin: 40px 100px;
     display: block;
-    max-width: 600px;
     padding-top: 10px;
     font-family: 'Raleway', sans-serif;
     padding: 1rem;
     font-weight: 500;
 }
 
-table {
-    
+table a:hover {
+    color: #464646;
+    font-weight: 600;
 }
 
 .list-image {
