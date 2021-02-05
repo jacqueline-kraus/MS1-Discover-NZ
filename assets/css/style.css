@@ -520,7 +520,7 @@ div form {
     margin: 20px 10px;
     display: block;
     max-width: 600px;
-    height: 300px;
+    /*height: 300px;*/
     padding-top: 10px;
     font-family: 'Raleway', sans-serif;
     background-color: rgb(248,249,250, 0.8);
