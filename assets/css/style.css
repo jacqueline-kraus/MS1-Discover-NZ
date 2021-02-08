@@ -162,7 +162,7 @@ header {
 /* -- index.html -------------------------------------*/
 
 .bg-heroimage {
-    background-image: url('/assets/images/heroimage.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/heroimage.jpg');
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
@@ -244,19 +244,19 @@ header {
 /*--Section Menu (4 choices) */
 
 .section-menu-route {
-    background-image: url('/assets/images/route.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/route.jpg');
 }
 
 .section-menu-accommodation {
-    background-image: url('/assets/images/accommodation.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/accommodation.jpg');
 }
 
 .section-menu-lotr {
-    background-image: url('/assets/images/lotr.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/lotr.jpg');
 }
 
 .section-menu-gallery {
-    background-image: url('/assets/images/gallery.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/gallery.jpg');
 }
 
 .selector-bg {
@@ -362,7 +362,7 @@ table a:hover {
 /*-- Highlights --*/
 
 .bg-highlights {
-    background-image: url('/assets/images/tongariro-vulcano.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/tongariro-vulcano.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -433,7 +433,7 @@ div form {
 
 
 .bg-contact {
-    background-image: url('/assets/images/bg-contact.jpg');
+    background-image: url('/MS1-Discover-NZ//assets/images/bg-contact.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -495,23 +495,23 @@ div form {
 }
 
 .bg-mordor {
-    background-image: url('/assets/images/lotr/lotr-mtdoom.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/lotr/lotr-mtdoom.jpg');
 }
 
 .bg-hobbiton {
-    background-image: url('/assets/images/lotr/lotr-hobbiton.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/lotr/lotr-hobbiton.jpg');
 }
 
 .bg-isengard {
-    background-image: url('/assets/images/lotr/lotr-isengard.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/lotr/lotr-isengard.jpg');
 }
 
 .bg-anduin {
-    background-image: url('/assets/images/lotr/lotr-anduin.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/lotr/lotr-anduin.jpg');
 }
 
 .bg-ithilien {
-    background-image: url('/assets/images/lotr/lotr-ithilien.jpg');
+    background-image: url('/MS1-Discover-NZ/assets/images/lotr/lotr-ithilien.jpg');
 }
 
 .content-style-lotr {
