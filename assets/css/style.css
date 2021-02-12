@@ -241,6 +241,34 @@ header {
     text-align: center;
 }
 
+/*-- ROUTE --*/
+
+
+.bg-route {
+    background-color: #f9f9f9;
+}
+
+.img-route {
+    width: 100%;
+    height: auto;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.route-style {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.route-style h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
 /*--Section Menu (4 choices) */
 
 .section-menu-route {
