@@ -270,6 +270,12 @@ header {
     font-weight: 700;
 }
 
+.route-p-style {
+    padding: 2rem;
+    font-weight: 500;
+    font-size: large;
+}
+
 
 /*--Section Menu (4 choices) */
 
