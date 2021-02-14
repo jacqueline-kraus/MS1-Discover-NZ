@@ -480,7 +480,8 @@ div form {
 }
 
 
-/*-- Media queries */
+/*-- Media Queries Mobile (max-width: 600px) --*/
+
 @media only screen and (max-width: 600px) {
    h1 {
        font-size: 25px;
@@ -494,7 +495,7 @@ div form {
     .h1-margin {
     margin-top: 85px;
     margin-bottom: 50px;
-}
+    }
    
     #logo {
     font-size: 12px;
@@ -517,15 +518,18 @@ div form {
     background-clip: padding-box;
     border: none;
     }
+
     .dropdown-item {
         padding-bottom: 2px;
         text-decoration: underline;
         font-size: 14px;
         margin-top: 7px;
     }
+
     .nav-item {
         font-size: 14px;
     }
+    
     .first-dd-item {
         margin-top: 0;
     }
@@ -546,35 +550,27 @@ div form {
     font-family: 'Montserrat', sans-serif;
     position: relative;
     background-color: rgb(248,249,250, 0.7)
-}
+    }
 
-.info-box-2 {
+    .info-box-2 {
     margin: 2rem 1rem 0 1rem;
     padding: 1rem;
     text-align: justify;
-}
+    }
 
-.selector-bg {
+    .selector-bg {
     width: 100%;
     height: 250px;
-}
+    }
+    
+    .style-img-highlights {
+        max-width: 100%;
+    }
 
-.text-adjust {
-    margin-top: 80px;
-}
-
-.list-image {
-    display: none;
-}
-
-.style-img-highlights {
-    max-width: 100%;
-}
-
-div form {
-    margin-right: 2rem;
-    margin-left: 2rem;
-}
+    div form {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
 
 #image-gallery {
     clear: both;
@@ -605,9 +601,9 @@ div form {
 }
 
 
-/*-- Media Queries --*/
+/*-- Media Queries Desktop (min-width: 600px)s --*/
 
-/*-- Media Query for index.html (Desktop) --*/
+/*-- Media Query for index.html --*/
 
 @media only screen and (min-width: 600px) {
 .info-box {
@@ -640,7 +636,8 @@ div form {
 }
 }
 
-/*-- Media query for contact.html (Desktop) --*/
+/*-- Media query for contact.html --*/
+
 @media only screen and (min-width: 600px) {
 div form {
     margin-right: 15rem;
