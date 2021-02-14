@@ -562,95 +562,84 @@ div form {
     width: 100%;
     height: 250px;
     }
-    
-    .style-img-highlights {
-        max-width: 100%;
-    }
 
     div form {
         margin-right: 2rem;
         margin-left: 2rem;
     }
 
-#image-gallery {
-    clear: both;
-    column-count: 1;
-    column-gap: 1px;
-    row-gap: 1px;
-    margin-top: 50px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
+    #image-gallery {
+        clear: both;
+        column-count: 1;
+        column-gap: 1px;
+        row-gap: 1px;
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 
-#image-gallery img {
-    width: 100%;
-}
+    #image-gallery img {
+        width: 100%;
+    }
 
-.h6-lotr {
-    margin: 0 2rem 1rem 2rem;
-}
+    .h6-lotr {
+        margin: 0 2rem 1rem 2rem;
+    }
 
-.content-style-lotr {
-    font-size: smaller;
-}
+    .content-style-lotr {
+        font-size: smaller;
+    }
 
-.cta-homepage {
-    margin: 2rem;
-}
-
+    .cta-homepage {
+        margin: 2rem;
+    }
 }
 
 
 /*-- Media Queries Desktop (min-width: 600px)s --*/
 
-/*-- Media Query for index.html --*/
-
 @media only screen and (min-width: 600px) {
-.info-box {
-    margin: 5rem 10rem;
-    color: #464646;
-    padding: 2rem 2rem 0 2rem;
-    border: solid rgb(248,249,250) 1px;
-    border-radius: 20px;
-    display: block;
-    font-size: 18px;
-    position: relative;
-    background-color: rgba(248,249,250, 0.8)
-}
+    .info-box {
+        margin: 5rem 10rem;
+        color: #464646;
+        padding: 2rem 2rem 0 2rem;
+        border: solid rgb(248,249,250) 1px;
+        border-radius: 20px;
+        display: block;
+        font-size: 18px;
+        position: relative;
+        background-color: rgba(248,249,250, 0.8)
+    }
 
 
-.info-box h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: 500;
-    text-align: center;
-    color: #464646;
+    .info-box h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+        color: #464646;
+    }
+
+    .info-box p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        line-height: 2rem;
+        color: #464646;
+    }
+
+    div form {
+        margin-right: 15rem;
+        margin-left: 15rem;
+    }
+
+    .contact-h5-margin {
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
 }
 
-.info-box p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    line-height: 2rem;
-    color: #464646;
-}
-}
-
-/*-- Media query for contact.html --*/
-
-@media only screen and (min-width: 600px) {
-div form {
-    margin-right: 15rem;
-    margin-left: 15rem;
-}
-
-.contact-h5-margin {
-    margin-left: 15rem;
-    margin-right: 15rem;
-}
-}
-
-/*-- External Sources --*/
+/*-- EXTERNAL SOURCES --*/
 
 /*-- copied from hover.css (reference here) --*/
 
