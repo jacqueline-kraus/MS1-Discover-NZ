@@ -434,6 +434,11 @@ div form {
 
 /*-- lotr.html --*/
 
+.lotr-h1-margin {
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
 .h6-lotr {
     margin: 2rem 5rem;
     font-family: 'Raleway', sans-serif;
