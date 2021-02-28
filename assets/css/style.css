@@ -357,7 +357,7 @@ bg body: #ededed */
 
 .highlights-img-style {
     max-width: 100%;
-    max-height: auto;
+    height: auto;
     margin-bottom: 20px;
 }
 
