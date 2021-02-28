@@ -66,6 +66,7 @@ a {
     color: #464646;
 }
 
+
 table a:hover {
     color: #464646;
     font-weight: 600;
@@ -377,6 +378,10 @@ bg body: #ededed */
     padding-bottom: 1rem;
 }
 
+.highlights-style a {
+    color: #464646;
+}
+
 /*-- contact.html --*/
 
 .contact-h5-style {
@@ -477,6 +482,10 @@ div form {
     background-color: rgb(248,249,250, 0.8);
     padding: 1rem;
     font-weight: 500;
+}
+
+.content-style-lotr a {
+    color: #464646;
 }
 
 
