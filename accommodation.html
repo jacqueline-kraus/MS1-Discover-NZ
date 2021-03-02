@@ -9,20 +9,21 @@
     <title>Discover New Zealand - Accommodation</title>
 </head>
 <body>
+    <!--Header, including Logo and Navigationbar (Navigationbar made with Bootstrap)-->
     <header class="fixed-top">
         <nav class="nav navbar navbar-expand-lg navbar-light bg-alabaster">
            <div class="container-fluid">
-            <a id="logo" class="navbar-brand" href="index.html">Discover New Zealand</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a id="logo" class="navbar-brand" href="index.html">Discover New Zealand</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Planning</a>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Planning</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item first-dd-item" href="route.html">Route</a>
                                 <a class="dropdown-item" href="accommodation.html">Accomodation <span class="sr-only">(current)</span></a>
@@ -30,20 +31,21 @@
                                 <a class="dropdown-item" href="lotr.html">Lord of the rings</a>
                             </div>
                         </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                </ul>
-            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
     <h1 class="text-uppercase h1-margin">Finding Accommodations <i class="fas fa-home"></i></h1>
+    <!-- Section 1: General Tips for accommodations-->
     <section>
-         <div class="container-fluid section-menu-accommodation bg-page-header-img">
+        <div class="container-fluid section-menu-accommodation bg-page-header-img">
             <div class="row justify-content-center">
                 <div class="col tips-list">
                     <h3 class="text-center">General Tips</h3>
@@ -59,13 +61,15 @@
             </div>
         </div>
     </section>
+    <!-- Section 2: Table with recommendations for accommodations-->
     <section>
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col recommend-list">
                     <h3 class="text-center">Tested and Recommended</h3>
                     <br>
-                    <p>Here is a list of accommodations for you, that I have been myself and I can recommend. 'Shared' means that in this Airbnbs you will have a room but share bathroom, kitchen, etc. with either the owners or other guests. By clicking on each 'NAME' you will be redirected directly on the booking page for that accommodation.<br><br>
+                    <p>
+                        Here is a list of accommodations for you, that I have been myself and I can recommend. 'Shared' means that in this Airbnbs you will have a room but share bathroom, kitchen, etc. with either the owners or other guests. By clicking on each 'NAME' you will be redirected directly on the booking page for that accommodation.<br><br>
                     </p>
                     <table class="table table-responsive-sm justify-content-center table-hover bg-light">
                         <thead class="text-uppercase">
@@ -150,34 +154,42 @@
         </div>
     </section>
     <hr>
+    <!--Section 3: CTA to go to next page -->
     <section>
         <div class="cta-homepage">
-        <h5>What can't I miss?</h5>
-        <br>
-        <a href="highlights.html">Find out on the next page! ></a>
+            <h5>What can't I miss?</h5>
+            <br>
+            <a href="highlights.html">Find out on the next page! ></a>
         </div>
     </section>
+    <!--Footer with "about me", link to contact form and social links -->
     <footer class="bg-alabaster">
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <h6>Contact me</h6>
-                    <p>If you have any questions or concerns, please use the <a href="contact.html" target="_blank" title="contact me"><u>contact form</u></a>.</p>
+                    <p>
+                        If you have any questions or concerns, please use the <a href="contact.html" target="_blank" title="contact me"><u>contact form</u></a>.
+                    </p>
                 </div>
                 <div class="col">
                     <h6>Social</h6>
-                    <p>Find me and my trips on social media!</p>
+                    <p>
+                        Find me and my trips on social media!
+                    </p>
                     <a href="https://www.facebook.com" target="_blank" title="facebook"><i class="fab fa-facebook-square"></i></a>
                     <a href="https://www.instagram.com" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a>
                 </div>
                 <div class="col order-lg-first">
                     <h6>About Me</h6>
-                    <p>My Name is Jacqueline, I have been to New Zealand in November 2018. All pictures are taken by me. My recommendations on this website are based on experience.</p>
+                    <p>
+                        My Name is Jacqueline, I have been to New Zealand in November 2018. All pictures are taken by me. My recommendations on this website are based on experience.
+                    </p>
                 </div>
             </div>
         </div>
     </footer>
- <!--Scripts provided by Bootstrap-->   
+<!--Scripts provided by Bootstrap-->   
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

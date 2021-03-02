@@ -9,19 +9,20 @@
     <title>Discover New Zealand - Gallery</title>
 </head>
 <body class="bg-gallery">
+    <!--Header, including Logo and Navigationbar (Navigationbar made with Bootstrap)-->
     <header class="fixed-top">
         <nav class="nav navbar navbar-expand-lg navbar-light bg-alabaster">
            <div class="container-fluid">
-            <a id="logo" class="navbar-brand" href="index.html">Discover New Zealand</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a id="logo" class="navbar-brand" href="index.html">Discover New Zealand</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Planning</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item first-dd-item" href="route.html">Route</a>
@@ -30,79 +31,89 @@
                                 <a class="dropdown-item" href="lotr.html">Lord of the rings</a>
                             </div>
                         </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                </ul>
-            </div>
+                        <li class="nav-item">
+                            <a class="nav-link  active" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
+    <!-- Headline of the Page -->
     <h1 class="text-uppercase h1-margin">Stunning nature <i class="fab fa-pagelines"></i></h1>
-        <section id="image-gallery">
-            <img src="./assets/images/gallery-images/gallery-tongariro.jpg" alt="Tongariro Nationalpark">
-            <img src="./assets/images/gallery-images/gallery-mntdoom.jpg" alt="Mount Doom">
-            <img src="./assets/images/gallery-images/gallery-tongariro-2.jpg" alt="Tongariro Nationalpark">
-            <img src="./assets/images/gallery-images/gallery-tongariro-3.jpg" alt="Tongariro Nationalpark">
-            <img src="./assets/images/gallery-images/gallery-tongariro-4.jpg" alt="Tongariro Nationalpark">
-            <img src="./assets/images/gallery-images/gallery-tongariro-5.jpg" alt="Tongariro Nationalpark">
-            <img src="./assets/images/gallery-images/gallery-hobbiton.jpg" alt="Hobbiton">
-            <img src="./assets/images/gallery-images/gallery-hobbiton-2.jpg" alt="Hobbiton">
-            <img src="./assets/images/gallery-images/gallery-hobbiton-3.jpg" alt="Hobbiton">
-            <img src="./assets/images/gallery-images/gallery-hobbiton-4.jpg" alt="Hobbiton">
-            <img src="./assets/images/gallery-images/gallery-hobbiton-5.jpg" alt="Hobbiton">
-            <img src="./assets/images/gallery-images/gallery-wellington.jpg" alt="Wellington">
-            <img src="./assets/images/gallery-images/gallery-hokitika.jpg" alt="Hokitika">
-            <img src="./assets/images/gallery-images/gallery-hokitika-2.jpg" alt="Hokitika">
-            <img src="./assets/images/gallery-images/gallery-hokitika-3.jpg" alt="Hokitika">
-            <img src="./assets/images/gallery-images/gallery-mountains.jpg" alt="Mountains in NZ">
-            <img src="./assets/images/gallery-images/gallery-nature.jpg" alt="Nature of NZ">
-            <img src="./assets/images/gallery-images/gallery-queenstown.jpg" alt="Queenstown">
-            <img src="./assets/images/gallery-images/gallery-queenstown-mountains-2.jpg" alt="Queenstown">
-            <img src="./assets/images/gallery-images/gallery-queenstown-mountains.jpg" alt="Queenstown">
-            <img src="./assets/images/gallery-images/gallery-blue-pools.jpg" alt="Blue Pools">
-            <img src="./assets/images/gallery-images/gallery-blue-pools-2.jpg" alt="Blue Pools">
-            <img src="./assets/images/gallery-images/gallery-doubtful-sound-2.jpg" alt="Doubtful Sound">
-            <img src="./assets/images/gallery-images/gallery-doubtful-sound.jpg" alt="Doubtful Sound">
-            <img src="./assets/images/gallery-images/gallery-milford-sound.jpg" alt="Milford Sound">
-            <img src="./assets/images/gallery-images/gallery-milford-sound-2.jpg" alt="Milford Sound">
-            <img src="./assets/images/gallery-images/gallery-milford-sound-3.jpg" alt="Milford Sound">
-            <img src="./assets/images/gallery-images/gallery-glacier.jpg" alt="Franz-Josef Glacier">
-            <img src="./assets/images/gallery-images/gallery-glacier-2.jpg" alt="Franz-Josef Glacier">
-            <img src="./assets/images/gallery-images/gallery-glacier-3.jpg" alt="Franz-Josef Glacier">
-            <img src="./assets/images/gallery-images/gallery-auckland.jpg" alt="Auckland">
-        </section> 
+    <!-- Section 1: Image Gallery -->
+    <section id="image-gallery">
+        <img src="./assets/images/gallery-images/gallery-tongariro.jpg" alt="Tongariro Nationalpark">
+        <img src="./assets/images/gallery-images/gallery-mntdoom.jpg" alt="Mount Doom">
+        <img src="./assets/images/gallery-images/gallery-tongariro-2.jpg" alt="Tongariro Nationalpark">
+        <img src="./assets/images/gallery-images/gallery-tongariro-3.jpg" alt="Tongariro Nationalpark">
+        <img src="./assets/images/gallery-images/gallery-tongariro-4.jpg" alt="Tongariro Nationalpark">
+        <img src="./assets/images/gallery-images/gallery-tongariro-5.jpg" alt="Tongariro Nationalpark">
+        <img src="./assets/images/gallery-images/gallery-hobbiton.jpg" alt="Hobbiton">
+        <img src="./assets/images/gallery-images/gallery-hobbiton-2.jpg" alt="Hobbiton">
+        <img src="./assets/images/gallery-images/gallery-hobbiton-3.jpg" alt="Hobbiton">
+        <img src="./assets/images/gallery-images/gallery-hobbiton-4.jpg" alt="Hobbiton">
+        <img src="./assets/images/gallery-images/gallery-hobbiton-5.jpg" alt="Hobbiton">
+        <img src="./assets/images/gallery-images/gallery-wellington.jpg" alt="Wellington">
+        <img src="./assets/images/gallery-images/gallery-hokitika.jpg" alt="Hokitika">
+        <img src="./assets/images/gallery-images/gallery-hokitika-2.jpg" alt="Hokitika">
+        <img src="./assets/images/gallery-images/gallery-hokitika-3.jpg" alt="Hokitika">
+        <img src="./assets/images/gallery-images/gallery-mountains.jpg" alt="Mountains in NZ">
+        <img src="./assets/images/gallery-images/gallery-nature.jpg" alt="Nature of NZ">
+        <img src="./assets/images/gallery-images/gallery-queenstown.jpg" alt="Queenstown">
+        <img src="./assets/images/gallery-images/gallery-queenstown-mountains-2.jpg" alt="Queenstown">
+        <img src="./assets/images/gallery-images/gallery-queenstown-mountains.jpg" alt="Queenstown">
+        <img src="./assets/images/gallery-images/gallery-blue-pools.jpg" alt="Blue Pools">
+        <img src="./assets/images/gallery-images/gallery-blue-pools-2.jpg" alt="Blue Pools">
+        <img src="./assets/images/gallery-images/gallery-doubtful-sound-2.jpg" alt="Doubtful Sound">
+        <img src="./assets/images/gallery-images/gallery-doubtful-sound.jpg" alt="Doubtful Sound">
+        <img src="./assets/images/gallery-images/gallery-milford-sound.jpg" alt="Milford Sound">
+        <img src="./assets/images/gallery-images/gallery-milford-sound-2.jpg" alt="Milford Sound">
+        <img src="./assets/images/gallery-images/gallery-milford-sound-3.jpg" alt="Milford Sound">
+        <img src="./assets/images/gallery-images/gallery-glacier.jpg" alt="Franz-Josef Glacier">
+        <img src="./assets/images/gallery-images/gallery-glacier-2.jpg" alt="Franz-Josef Glacier">
+        <img src="./assets/images/gallery-images/gallery-glacier-3.jpg" alt="Franz-Josef Glacier">
+        <img src="./assets/images/gallery-images/gallery-auckland.jpg" alt="Auckland">
+    </section>
+    <!--Section 2: CTA to go to next page -->
     <section>
         <div class="cta-homepage">
-        <h5>You have any feedback, questions or other notes?</h5>
-        <br>
-        <a href="contact.html">Here you can get in touch! ></a>
+            <h5>You have any feedback, questions or other notes?</h5>
+            <br>
+            <a href="contact.html">Here you can get in touch! ></a>
         </div>
     </section>  
+    <!--Footer with "about me", link to contact form and social links -->
     <footer class="bg-alabaster">
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <h6>Contact me</h6>
-                    <p>If you have any questions or concerns, please use the <a href="contact.html" target="_blank" title="contact me"><u>contact form</u></a>.</p>
+                    <p>
+                        If you have any questions or concerns, please use the <a href="contact.html" target="_blank" title="contact me"><u>contact form</u></a>.
+                    </p>
                 </div>
                 <div class="col">
                     <h6>Social</h6>
-                    <p>Find me and my trips on social media!</p>
+                    <p>
+                        Find me and my trips on social media!
+                    </p>
                     <a href="https://www.facebook.com" target="_blank" title="facebook"><i class="fab fa-facebook-square"></i></a>
                     <a href="https://www.instagram.com" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a>
                 </div>
                 <div class="col order-lg-first">
                     <h6>About Me</h6>
-                    <p>My Name is Jacqueline, I have been to New Zealand in November 2018. All pictures are taken by me. My recommendations on this website are based on experience.</p>
+                    <p>
+                        My Name is Jacqueline, I have been to New Zealand in November 2018. All pictures are taken by me. My recommendations on this website are based on experience.
+                    </p>
                 </div>
             </div>
         </div>
     </footer>
- <!--Scripts provided by Bootstrap-->   
+<!--Scripts provided by Bootstrap-->   
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

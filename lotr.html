@@ -9,20 +9,21 @@
     <title>Discover New Zealand - LotR</title>
 </head>
 <body>
+    <!--Header, including Logo and Navigationbar (Navigationbar made with Bootstrap)-->
     <header class="fixed-top">
         <nav class="nav navbar navbar-expand-lg navbar-light bg-alabaster">
            <div class="container-fluid">
-            <a id="logo" class="navbar-brand" href="index.html">Discover New Zealand</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a id="logo" class="navbar-brand" href="index.html">Discover New Zealand</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Planning</a>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Planning</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item first-dd-item" href="route.html">Route</a>
                                 <a class="dropdown-item" href="accommodation.html">Accomodation</a>
@@ -30,107 +31,146 @@
                                 <a class="dropdown-item" href="lotr.html">Lord of the rings <span class="sr-only">(current)</span></a>
                             </div>
                         </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                </ul>
-            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-    </header> 
+    </header>
+    <!-- Headline of the Page -->
     <h1 class="text-uppercase lotr-h1-margin">Lord of the rings <i class="fas fa-ring"></i></h1>
-        <h6 class="text-center h6-lotr">As you probably know the Lord of the Rings and The Hobbit Trilogy were all filmed in stunning locations across New Zealand. In a short time you most likely won't be able to visit all of them (unless this is your reason to travel there). Here is an overview for you, which locations you can easily integrate in your 18 days trip.</h6>
-         <div class="container-fluid">
-            <div class="row justify-content-center bg-page-header-img bg-mordor">
-                <div class="col content-style-lotr">
-                    <h3 class="text-center text-uppercase">Mordor and Mount Doom</h3>
-                    <br>
-                    <p class="text-center"><em>'One Ring to rule them all, One Ring to find them, One Ring to bring them all, and in the darkness bind them.'</em><br><br>
-                            The Tongariro Crossing leads you straight through Mordor and you will have an amazing view on Mount Doom (it’s original name is Mount Ngauruhoe, btw). Of course, you can also climb up Mount Doom, but consider, this is an additional 2-3 hour trail (on top of your 20km hike). What’s for sure, no matter if you integrate Mount Doom or not, that you will really understand how Frodo and Sam must have felt like, when they walked through Mordor and were out of energy. Don’t underestimate the hike, it is exhausting, as Mordor consists of Volcanoes, you will partly have to climb on hands and feet to reach the top.. BUT the views you get make the effort totally worth it!
-                    </p>
-                    <br>
-                    <p><a href="https://www.tongarirocrossing.org.nz/">Helpful Link</a></p>
-                </div>
+    <!-- Section 1: Lord of the rings places in New Zealand-->
+    <section>
+    <!-- Introtext of the Page -->
+    <h6 class="text-center h6-lotr">As you probably know the Lord of the Rings and The Hobbit Trilogy were all filmed in stunning locations across New Zealand. In a short time you most likely won't be able to visit all of them (unless this is your reason to travel there). Here is an overview for you, which locations you can easily integrate in your 18 days trip.</h6>
+    <!-- List of Lord of the rings places in New Zealand to visit -->
+    <div class="container-fluid">
+        <!-- ITEM 1 -->
+        <div class="row justify-content-center bg-page-header-img bg-mordor">
+            <div class="col content-style-lotr">
+                <h3 class="text-center text-uppercase">Mordor and Mount Doom</h3>
+                <br>
+                <p class="text-center">
+                    <em>'One Ring to rule them all, One Ring to find them, One Ring to bring them all, and in the darkness bind them.'</em>
+                    <br><br>
+                    The Tongariro Crossing leads you straight through Mordor and you will have an amazing view on Mount Doom (it’s original name is Mount Ngauruhoe, btw). Of course, you can also climb up Mount Doom, but consider, this is an additional 2-3 hour trail (on top of your 20km hike). What’s for sure, no matter if you integrate Mount Doom or not, that you will really understand how Frodo and Sam must have felt like, when they walked through Mordor and were out of energy. Don’t underestimate the hike, it is exhausting, as Mordor consists of Volcanoes, you will partly have to climb on hands and feet to reach the top.. BUT the views you get make the effort totally worth it!
+                </p>
+                <br>
+                <p>
+                    <a href="https://www.tongarirocrossing.org.nz/">Helpful Link</a>
+                </p>
             </div>
-            <div class="row justify-content-center bg-page-header-img bg-hobbiton">
-                <div class="col content-style-lotr">
-                    <h3 class="text-center text-uppercase">Hobbiton</h3>
-                    <br>
-                    <p class="text-center"><em>‘What about very old friends?’</em><br><br>
-                        Here is where the stories of Bilbo and Frodo began. Your story begins in Matamata, where you get your tickets and a bus picks you up to drive you to the movie set. When you arrive a guide will show you around, explain which house belongs to whom and at the end of the tour you get a drink at the Green Dragon Inn. Not only when you are a huge LOTR fan, but also if you have never seen the movies (shame on you!), this is definitely worth seeing.
-                        <u>Tip</u>: While you walk through the shire, take a moment for yourself, think of the LOTR music and enjoy the moment - It’s magical!
-                    </p>
-                    <br>
-                    <p><a href="https://www.hobbitontours.com/">Helpful Link</a></p>
-                </div>
+        </div>
+        <!-- ITEM 2 -->
+        <div class="row justify-content-center bg-page-header-img bg-hobbiton">
+            <div class="col content-style-lotr">
+                <h3 class="text-center text-uppercase">Hobbiton</h3>
+                <br>
+                <p class="text-center">
+                    <em>‘What about very old friends?’</em>
+                    <br><br>
+                    Here is where the stories of Bilbo and Frodo began. Your story begins in Matamata, where you get your tickets and a bus picks you up to drive you to the movie set. When you arrive a guide will show you around, explain which house belongs to whom and at the end of the tour you get a drink at the Green Dragon Inn. Not only when you are a huge LOTR fan, but also if you have never seen the movies (shame on you!), this is definitely worth seeing.
+                    <u>Tip</u>: While you walk through the shire, take a moment for yourself, think of the LOTR music and enjoy the moment - It’s magical!
+                </p>
+                <br>
+                <p>
+                    <a href="https://www.hobbitontours.com/">Helpful Link</a>
+                </p>
             </div>
-            <div class="row justify-content-center bg-page-header-img bg-isengard">
-                <div class="col content-style-lotr">
-                    <h3 class="text-center text-uppercase">Isengard</h3>
-                    <br>
-                    <p class="text-center"><em>‘They are taking the Hobbits to Isengard!’</em><br><br>
+        </div>
+        <!-- ITEM 3 -->
+        <div class="row justify-content-center bg-page-header-img bg-isengard">
+            <div class="col content-style-lotr">
+                <h3 class="text-center text-uppercase">Isengard</h3>
+                <br>
+                <p class="text-center">
+                    <em>‘They are taking the Hobbits to Isengard!’</em>
+                    <br><br>
                     Who doesn’t remember the epic moment, when Saruman got defeated by the Ents with the help of 2 little Hobbits? About an hour car ride from Queenstown, you will find the area where Isengard was filmed.. Maybe you won’t detect it directly, as you won’t find Sarumans Tower, but it is there <i class="far fa-grin-tongue-squint"></i>.
                 </p>
                 <br>
-                    <p><a href="https://www.google.de/maps/place/Isengard+Lookout/@-44.7731808,168.325246,17z/data=!3m1!4b1!4m5!3m4!1s0xa9d5bcaafc62f1f9:0xdd45761afd84f86!8m2!3d-44.7731846!4d168.3274347">Helpful Link</a></p>
-                </div>
-            </div>
-            <div class="row justify-content-center bg-page-header-img bg-anduin">
-                <div class="col content-style-lotr">
-                    <h3 class="text-center text-uppercase">River Anduin</h3>
-                    <br>
-                    <p class="text-center"><em>’I have written Gandalf is here in signs that all can read from Rivendell to the mouths of Anduin.’</em><br><br>
-                        The One Ring was lost in the “Great River” or also called “Anduin”. Millennials later it was found there by Deagol, from whom Smeagol took it, before he became more and more Gollum.
-                        It is always amazing to see how much beauty lies in New Zealands nature and how well this fits J.R.R. Tolkien's descriptions. As if the country was made to be the stage for making films out of his book!
-                    </p>
-                    <br>
-                    <p><a href="https://nzplaces.nz/place/waiau-river-river-anduin">Helpful Link</a></p>
-                </div>
-            </div>
-            <div class="row justify-content-center bg-page-header-img bg-ithilien">
-                <div class="col content-style-lotr">
-                    <h3 class="text-center text-uppercase">Misty Mountains</h3>
-                    <br>
-                    <p class="text-center"><em>’Far over the Misty Mountains cold, to dungeons deep and caverns old, we must away, ere break of day, to seek our pale enchanted gold.’</em><br><br>
-                        In the first Lord of the Rings part, the fellowship had to cross them, but due to the storm Frodo decided to take the path through Moria (former Khazad-dûm) instead. In The Hobbit Bilbo found exactly there, in the dwarfen realm the one ring, that Gollum lost back then. The scenery for the Misty Mountains can be found close to Queenstown (not far away from Isengard, so if you are already on the way, you can combine it!).
-                    </p>
-                    <br>
-                    <p><a href="https://pureglenorchy.com/">Helpful Link</a></p>
-                </div>
+                <p>
+                    <a href="https://www.google.de/maps/place/Isengard+Lookout/@-44.7731808,168.325246,17z/data=!3m1!4b1!4m5!3m4!1s0xa9d5bcaafc62f1f9:0xdd45761afd84f86!8m2!3d-44.7731846!4d168.3274347">Helpful Link</a>
+                </p>
             </div>
         </div>
-        <hr>
-        <section>
-            <div class="cta-homepage">
+        <!-- ITEM 4 -->
+        <div class="row justify-content-center bg-page-header-img bg-anduin">
+            <div class="col content-style-lotr">
+                <h3 class="text-center text-uppercase">River Anduin</h3>
+                <br>
+                <p class="text-center">
+                    <em>’I have written Gandalf is here in signs that all can read from Rivendell to the mouths of Anduin.’</em>
+                    <br><br>
+                    The One Ring was lost in the “Great River” or also called “Anduin”. Millennials later it was found there by Deagol, from whom Smeagol took it, before he became more and more Gollum.
+                    It is always amazing to see how much beauty lies in New Zealands nature and how well this fits J.R.R. Tolkien's descriptions. As if the country was made to be the stage for making films out of his book!
+                </p>
+                <br>
+                <p>
+                    <a href="https://nzplaces.nz/place/waiau-river-river-anduin">Helpful Link</a>
+                </p>
+            </div>
+        </div>
+        <!-- ITEM 5 -->
+        <div class="row justify-content-center bg-page-header-img bg-ithilien">
+            <div class="col content-style-lotr">
+                <h3 class="text-center text-uppercase">Misty Mountains</h3>
+                <br>
+                <p class="text-center">
+                    <em>’Far over the Misty Mountains cold, to dungeons deep and caverns old, we must away, ere break of day, to seek our pale enchanted gold.’</em>
+                    <br><br>
+                    In the first Lord of the Rings part, the fellowship had to cross them, but due to the storm Frodo decided to take the path through Moria (former Khazad-dûm) instead. In The Hobbit Bilbo found exactly there, in the dwarfen realm the one ring, that Gollum lost back then. The scenery for the Misty Mountains can be found close to Queenstown (not far away from Isengard, so if you are already on the way, you can combine it!).
+                </p>
+                <br>
+                <p>
+                    <a href="https://pureglenorchy.com/">Helpful Link</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <hr>
+    <!--Section 2: CTA to go to next page -->
+    <section>
+        <div class="cta-homepage">
             <h3>You want to see more pictures of the beautiful nature of New Zealand?</h3>
             <br>
             <a href="gallery.html">Check out the next page! ></a>
-            </div>
-        </section>
+        </div>
+    </section>
+    <!--Footer with "about me", link to contact form and social links -->
     <footer class="bg-alabaster">
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <h6>Contact me</h6>
-                    <p>If you have any questions or concerns, please use the <a href="contact.html" target="_blank" title="contact me"><u>contact form</u></a>.</p>
+                    <p>
+                        If you have any questions or concerns, please use the <a href="contact.html" target="_blank" title="contact me"><u>contact form</u></a>.
+                    </p>
                 </div>
                 <div class="col">
                     <h6>Social</h6>
-                    <p>Find me and my trips on social media!</p>
+                    <p>
+                        Find me and my trips on social media!
+                    </p>
                     <a href="https://www.facebook.com" target="_blank" title="facebook"><i class="fab fa-facebook-square"></i></a>
                     <a href="https://www.instagram.com" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a>
                 </div>
                 <div class="col order-lg-first">
                     <h6>About Me</h6>
-                    <p>My Name is Jacqueline, I have been to New Zealand in November 2018. All pictures are taken by me. My recommendations on this website are based on experience.</p>
+                    <p>
+                        My Name is Jacqueline, I have been to New Zealand in November 2018. All pictures are taken by me. My recommendations on this website are based on experience.
+                    </p>
                 </div>
             </div>
         </div>
     </footer>
- <!--Scripts provided by Bootstrap-->   
+<!--Scripts provided by Bootstrap-->   
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

@@ -9,49 +9,53 @@
     <title>Discover New Zealand - Route</title>
 </head>
 <body>
+    <!--Header, including Logo and Navigationbar (Navigationbar made with Bootstrap)-->
     <header class="fixed-top">
         <nav class="nav navbar navbar-expand-lg navbar-light bg-alabaster">
            <div class="container-fluid">
-            <a id="logo" class="navbar-brand" href="index.html">Discover New Zealand</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a id="logo" class="navbar-brand" href="index.html">Discover New Zealand</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Planning</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item first-dd-item" href="route.html">Route</a>
-                                <a class="dropdown-item" href="accommodation.html">Accomodation <span class="sr-only">(current)</span></a>
+                                <a class="dropdown-item first-dd-item" href="route.html">Route <span class="sr-only">(current)</span></a>
+                                <a class="dropdown-item" href="accommodation.html">Accomodation</a>
                                 <a class="dropdown-item" href="highlights.html">Highlights</a>
                                 <a class="dropdown-item" href="lotr.html">Lord of the rings</a>
                             </div>
                         </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                </ul>
-            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
+    <!-- Section 1: Image of Route & text about stops for North Island and South Island-->
     <section>
         <div class="text-center h1-margin">
-        <h1 class="text-uppercase">The Route <i class="fas fa-map-marker-alt"></i></h1>
+            <h1 class="text-uppercase">The Route <i class="fas fa-map-marker-alt"></i></h1>
         </div>
         <div class="container-fluid bg-alabaster margin-bottom-top">
-                <div class="row">
+            <div class="row">
+                <!-- Screenshot of the North Island and Google Maps Link (with all stops preseleceted)-->
                 <div class="col-lg-6 no-padding">
                     <a href="https://www.google.de/maps/dir/Auckland,+Neuseeland/Tauranga,+Neuseeland/Matamata,+Neuseeland/Waitomo,+Neuseeland/Rotorua,+Neuseeland/Tongariro+Alpine+Crossing,+Manawatu-Wanganui,+Neuseeland/Wellington,+New+Zealand/@-38.3346313,173.9323762,6.63z/data=!4m44!4m43!1m5!1m1!1s0x6d0d47fb5a9ce6fb:0x500ef6143a29917!2m2!1d174.7644881!2d-36.8508827!1m5!1m1!1s0x6d6e76e77bd464e5:0x500ef6143a39926!2m2!1d176.1220183!2d-37.7475768!1m5!1m1!1s0x6d6c4e27e17a16a9:0x500ef6143a2e1b0!2m2!1d175.7709978!2d-37.8084687!1m5!1m1!1s0x6d6cb7b215429a03:0x500ef6143a316b0!2m2!1d175.1113208!2d-38.2606874!1m5!1m1!1s0x6d6e983d82f6b22b:0x500ef6143a39931!2m2!1d176.2377669!2d-38.1445987!1m5!1m1!1s0x6d6ba849ca86fee9:0x9058c6bd759e6706!2m2!1d175.6486843!2d-39.1009235!1m5!1m1!1s0x6d38b1fc49e974cb:0xa00ef63a213b470!2m2!1d174.7787463!2d-41.2923814!3e0" target="_blank">
                         <img class="img-route" src="./assets/images/map-north-island.png" alt="Map North Island" title="Map of North Island">
                     </a>
                 </div>
+                <!-- Explanation of Stops on the North Island-->
                 <div class="col-lg-6 route-style">
                     <h3> The North Island (7 Days / 6 Nights)</h3>
                     <br>
@@ -125,19 +129,23 @@
                             </ul>
                         </div>
                     </div>
-                    </div>
                 </div>
             </div>
+        </div>
         <div class="route-p-style">
-            <p class="text-center text-uppercase">To save time, book a flight from Wellington to Christchurch (around 1h flight).</p>
+            <p class="text-center text-uppercase">
+                To save time, book a flight from Wellington to Christchurch (around 1h flight).
+            </p>
         </div>
         <div class="container-fluid bg-alabaster margin-bottom-top">
-                <div class="row">
-                    <div class="col-lg-6 order-lg-12 no-padding">
-                        <a href="https://www.google.de/maps/dir/Christchurch,+Neuseeland/Hokitika,+Neuseeland/Haast,+Neuseeland/Cromwell,+Neuseeland/Te+Anau,+Neuseeland/Milford+Sound,+Neuseeland/Queenstown,+Neuseeland/@-43.9522648,168.5241054,6.99z/data=!4m44!4m43!1m5!1m1!1s0x6d322f4863c5ed01:0x500ef8684799945!2m2!1d172.6305589!2d-43.5320214!1m5!1m1!1s0x6d2f3b171045bf73:0x500ef8684797780!2m2!1d170.9683049!2d-42.7156909!1m5!1m1!1s0x6cd59d256cd89b67:0x500ef86847972d0!2m2!1d169.0455609!2d-43.8600155!1m5!1m1!1s0xa9d52b1454d25e3b:0x500ef8684796850!2m2!1d169.1955689!2d-45.0459401!1m5!1m1!1s0xa9d46d2095665e6b:0x500ef868479b450!2m2!1d167.7180426!2d-45.4144293!1m5!1m1!1s0xa9d60bbf3c7ff175:0x500ef8684798ea0!2m2!1d167.9261669!2d-44.6716487!1m5!1m1!1s0xa9d51df1d7a8de5f:0x500ef868479a600!2m2!1d168.6615141!2d-45.0301511!3e0" target="_blank">
-                            <img class="img-route" src="./assets/images/map-south-island.png" alt="Map South Island" title="Map of South Island">
-                        </a>
-                    </div>
+            <div class="row">
+                <!-- Screenshot of the South Island and Google Maps Link (with all stops preseleceted)-->
+                <div class="col-lg-6 order-lg-12 no-padding">
+                    <a href="https://www.google.de/maps/dir/Christchurch,+Neuseeland/Hokitika,+Neuseeland/Haast,+Neuseeland/Cromwell,+Neuseeland/Te+Anau,+Neuseeland/Milford+Sound,+Neuseeland/Queenstown,+Neuseeland/@-43.9522648,168.5241054,6.99z/data=!4m44!4m43!1m5!1m1!1s0x6d322f4863c5ed01:0x500ef8684799945!2m2!1d172.6305589!2d-43.5320214!1m5!1m1!1s0x6d2f3b171045bf73:0x500ef8684797780!2m2!1d170.9683049!2d-42.7156909!1m5!1m1!1s0x6cd59d256cd89b67:0x500ef86847972d0!2m2!1d169.0455609!2d-43.8600155!1m5!1m1!1s0xa9d52b1454d25e3b:0x500ef8684796850!2m2!1d169.1955689!2d-45.0459401!1m5!1m1!1s0xa9d46d2095665e6b:0x500ef868479b450!2m2!1d167.7180426!2d-45.4144293!1m5!1m1!1s0xa9d60bbf3c7ff175:0x500ef8684798ea0!2m2!1d167.9261669!2d-44.6716487!1m5!1m1!1s0xa9d51df1d7a8de5f:0x500ef868479a600!2m2!1d168.6615141!2d-45.0301511!3e0" target="_blank">
+                        <img class="img-route" src="./assets/images/map-south-island.png" alt="Map South Island" title="Map of South Island">
+                    </a>
+                </div>
+                <!-- Explanation of Stops on the South Island-->
                 <div class="col-lg-6 route-style">
                     <h3> The South Island (11 Days / 10 Nights)</h3>
                     <br>
@@ -203,42 +211,52 @@
                             </ul>
                         </div>
                     </div>
-                    </div>
-                    
-                </div>
-                <div class="route-p-style">
-            <p><b>As most international flights are departing from Auckland:</b><br>From Queentown, you can fly back to Auckland and spend your last day visiting Auckland (and the amazing Aucklandmuseum).</p>
-        </div>
+                </div>    
             </div>
+            <div class="route-p-style">
+            <p>
+                <b>As most international flights are departing from Auckland:
+                </b><br>From Queentown, you can fly back to Auckland and spend your last day visiting Auckland (and the amazing Aucklandmuseum).
+            </p>
+            </div>
+        </div>
     </section>
+    <!--Section 2: CTA to go to next page -->
     <section>
         <div class="cta-homepage">
-        <h5>And where should I sleep?</h5>
-        <br>
-        <a href="accommodation.html">Find recommendations on the next page! ></a>
+            <h5>And where should I sleep?</h5>
+            <br>
+            <a href="accommodation.html">Find recommendations on the next page! ></a>
         </div>
     </section>
+    <!--Footer with "about me", link to contact form and social links -->
     <footer class="bg-alabaster">
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <h6>Contact me</h6>
-                    <p>If you have any questions or concerns, please use the <a href="contact.html" target="_blank" title="contact me"><u>contact form</u></a>.</p>
+                    <p>
+                        If you have any questions or concerns, please use the <a href="contact.html" target="_blank" title="contact me"><u>contact form</u></a>.
+                    </p>
                 </div>
                 <div class="col">
                     <h6>Social</h6>
-                    <p>Find me and my trips on social media!</p>
+                    <p>
+                        Find me and my trips on social media!
+                    </p>
                     <a href="https://www.facebook.com" target="_blank" title="facebook"><i class="fab fa-facebook-square"></i></a>
                     <a href="https://www.instagram.com" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a>
                 </div>
                 <div class="col order-lg-first">
                     <h6>About Me</h6>
-                    <p>My Name is Jacqueline, I have been to New Zealand in November 2018. All pictures are taken by me. My recommendations on this website are based on experience.</p>
+                    <p>
+                        My Name is Jacqueline, I have been to New Zealand in November 2018. All pictures are taken by me. My recommendations on this website are based on experience.
+                    </p>
                 </div>
             </div>
         </div>
     </footer>
- <!--Scripts provided by Bootstrap-->   
+<!--Scripts provided by Bootstrap-->   
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
