@@ -548,6 +548,10 @@ div form {
         margin-top: 0;
     }
 
+    .cta-homepage a {
+        font-size: 10px;
+    }
+
     .bg-heroimage {
         height: auto;
         margin-top: 0;
