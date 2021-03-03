@@ -322,7 +322,6 @@ bg body: #ededed */
     margin: 20px 10px;
     display: block;
     max-width: 600px;
-    padding-top: 10px;
     font-family: 'Raleway', sans-serif;
     background-color: rgb(248,249,250, 0.8);
     padding: 1rem;
@@ -332,7 +331,6 @@ bg body: #ededed */
 .recommend-list {
     margin: 40px 100px 0 100px;
     display: block;
-    padding-top: 10px;
     font-family: 'Raleway', sans-serif;
     padding: 1rem;
     font-weight: 500;
@@ -386,7 +384,7 @@ bg body: #ededed */
     font-weight: 400;
 }
 
-div form {
+.contact-form {
     border: 1px solid white;
     padding: 10px;
     color: black;
