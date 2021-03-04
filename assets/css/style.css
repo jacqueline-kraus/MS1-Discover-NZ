@@ -79,13 +79,6 @@ h1 {
     color: #464646;
 }
 
-/*.text-style-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
-    color: #464646;
-    letter-spacing: 2px;
-}*/
-
 h3 {
     font-family: 'Raleway', sans-serif;
     color: #464646;
@@ -117,11 +110,6 @@ h5 {
 }
 
 /*-- Colors --*/
-
-/*
-text-color: #464646
-bg header & footer: #f9f9f9
-bg body: #ededed */
 
 .bg-alabaster {
     background-color: #f9f9f9;
