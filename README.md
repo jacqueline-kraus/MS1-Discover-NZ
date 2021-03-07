@@ -7,7 +7,7 @@ The purpose of the website is to show based on experience how to travel through 
 
 ![Website](readme-files/readme-images/screenshot-devices-discover-nz.png) 
 
-## [Life website in github pages](https://jacqueline-kraus.github.io/MS1-Discover-NZ/index.html)
+## [Live website in github pages](https://jacqueline-kraus.github.io/MS1-Discover-NZ/index.html)
 --- 
 # Table of contents
 - [UX](#ux)
