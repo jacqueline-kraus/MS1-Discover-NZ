@@ -198,6 +198,7 @@ The website was tested on following hardware devices:
 ## Bugs and problems 
 - When browsing the website on desktop, there is a bug in the navigation menu. When opening the dropdown (Planning) and clicking on any item, by clicking the item has a blue background. This should not be the case.
 - On some tablet devices the dropdown menu items are centered instead of right aligned.
+- On the Lord of the rings page the text on the images was not properly readable. This was fixed by adding a text-shadow to the CSS.
 # Deployment
 ## Github pages
 
