@@ -23,6 +23,10 @@ The purpose of the website is to show based on experience how to travel through 
 - [Technologies used](#technologies-used)
 - [Code Validation](#code-validation)
 - [Testing](#testing)
+    - [Funcionality Testing](#functionality-testing)
+    - [Compatibility Testing](#compatibility-testing)
+    - [User stories testing](#user-stories-testing)
+    - [Bugs and problems](#bug-and-problems)
 - [Deployment](#deployment)
 - [Credits](#credits)
 
