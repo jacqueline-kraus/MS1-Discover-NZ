@@ -5,6 +5,8 @@ Code Institute - User-Centric Frontend Development Milestone Project.
 This project is a website with 7 pages about travelling to New Zealand.
 The purpose of the website is to show based on experience how to travel through New Zealand in a short time (18 days) and with low budget. 
 
+! [Website] (readme-files/screenshot-devices-discover-nz.png) 
+
 ## [Life website in github pages](https://jacqueline-kraus.github.io/MS1-Discover-NZ/index.html)
 --- 
 # Table of contents
