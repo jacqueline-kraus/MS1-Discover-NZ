@@ -35,7 +35,7 @@ The purpose of the website is to show based on experience how to travel through 
 # UX
 
 ## Website owner business goals
-- As the website owner, the goal is to provide information and inspiration and share experience for everyone interested in travelling to New Zealand. 
+- As the website owner, the goal is to provide information, inspire, and share experience for everyone interested in travelling to New Zealand. 
 
 ## User goals
 - User is provided with general information about New Zealand
