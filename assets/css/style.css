@@ -11,39 +11,21 @@ header {
 
 footer {
     color: #464646;
-    font-family: 'Montserrat', sans-serif;
-    padding-right: 15px;
-    padding-left: 15px;    
-    padding-bottom: 10px;
-    padding-top: 10px;
-    text-align: left;
+    padding-right: 10px 15px;
     width: 100%;
     border-top: 1px solid rgba(70, 70, 70, 0.2);
 }
 
 footer p {
-
     font-size: 13px;
-    text-transform: none;
-    font-family: 'Raleway', sans-serif;
-}
-
-footer h6 {
-    text-transform: uppercase;
-    text-decoration: dotted underline;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 footer i {
     color: #464646;
     font-size: 20px;
-}
-
-footer a {
-    color: #464646;
-}
-
-footer a:hover {
-    color: black;
 }
 
 /*-- Body/Body Elements Style --*/
