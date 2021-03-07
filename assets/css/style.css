@@ -240,7 +240,7 @@ h5 {
 .selector-bg {
     background-position: center;
     background-size: cover;
-    width: 250px;
+    width: 100%;
     height: 250px;    
     opacity: 0.9;
 }
@@ -541,12 +541,7 @@ h5 {
     text-align: justify;
     }
 
-    .selector-bg {
-    width: 100%;
-    height: 250px;
-    }
-
-    div form {
+    .contact-form {
         margin-right: 2rem;
         margin-left: 2rem;
     }
@@ -609,7 +604,7 @@ h5 {
         color: #464646;
     }
 
-    div form {
+    .contact-form {
         margin-right: 15rem;
         margin-left: 15rem;
     }
